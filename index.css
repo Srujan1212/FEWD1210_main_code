@@ -1,3 +1,8 @@
+/* Iteration-1: By using universal selector override the default web page settings to 0px margin and padding */
+*{
+    margin:0px;
+    padding:0px;
+}
 /* Simple grid styles
 ------------------------------------------------ */
 
@@ -9,18 +14,34 @@ ul {
     overflow: hidden;
     min-height: 11.75em; /* just here to force height */
   }
+
+/* Iteration-2: Select the id main and make its font-style to italic*/
   #main{
     font-style: italic;
   }
+
+
+
+
+/* Iteration-3 : select the Pseudo class selector[hover] for <a> atttribute and make its font size to 20px
+
+ */
   a:hover{
     font-size: 20px;
   }
+
+
+
+/* Iteration -4: Take the attribute selectoe whose value is [https://www.google.com/search?q=land+plots+layout+in+india&sxsrf=ALiCzsZELiHuIGvNCYYkJKKuJZYpgS20Jw:1655355834954&source=lnms&tbm=isch&sa=X&ved=2ahUKEwj7upOEmbH4AhXxxDgGHQFFCigQ_AUoAXoECAEQAw&biw=1440&bih=821&dpr=2]
+and set its color to green*/
   a[href="https://www.google.com/search?q=land+plots+layout+in+india&sxsrf=ALiCzsZELiHuIGvNCYYkJKKuJZYpgS20Jw:1655355834954&source=lnms&tbm=isch&sa=X&ved=2ahUKEwj7upOEmbH4AhXxxDgGHQFFCigQ_AUoAXoECAEQAw&biw=1440&bih=821&dpr=2"]:hover{
 color:green;
   }
 
-/* Iteration-0 : give line height,text align,margin,box-shadow for the list elements */
+/* Iteration-5 : Consider the list selector and make its default float property to left,line height to 3em,margin 1.5%,backgroun color to #eee and
+arrange everything horizontally centered*/
 
+/* Iteration-6: COnsiderable box shadow is also given to li */
   li {
     float: left;
     line-height: 3em;
@@ -29,7 +50,7 @@ color:green;
     margin: 1.5%;
     box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.15);
   }
-    /*Iteration-1 : give padding and width for the grid elements */
+  
 
   .grid-3 li {
     width: 30.33%;
@@ -37,7 +58,7 @@ color:green;
 .grid-3 >a{
   text-decoration: none;
 }
-  
+/*   Iteration-7: select the grid-4 class and make the with of the lists under it to 22% */
   .grid-4 li {
     width: 22%;
   }
@@ -48,14 +69,19 @@ color:green;
   .grid-5 li {
     width: 17%;
   }
+
+/* Iteration-4: */
   .grid-5 >a{
     text-decoration: none;
   }
-    /* Iteration -2 :styling the grid last boxes */
+   
 
   /* Last row styles
   ------------------------------------------------ */
   /* styling the grid last boxes */
+
+
+/* Iteration-8: find the logic of nth child system anf fill the colors inside the grid one example is shown below */
   .grid-3 li:nth-child(3n + 1):nth-last-child(-n + 3),
   .grid-3 li:nth-child(3n + 1):nth-last-child(-n + 3) ~ li {
     background: #cfa;
@@ -79,6 +105,7 @@ color:green;
     background-color:whitesmoke
   }
 
+/* Iteration -9: select the type selector div and make its float property to left,width to 30%, left and right margint to 1.5%*/
   div {
     float: left;
     width: 30%;
