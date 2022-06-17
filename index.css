@@ -1,8 +1,8 @@
 /* Iteration-1: By using universal selector override the default web page settings to 0px margin and padding */
-*{
+/* *{
     margin:0px;
     padding:0px;
-}
+} */
 /* Simple grid styles
 ------------------------------------------------ */
 
