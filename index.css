@@ -70,7 +70,7 @@ arrange everything horizontally centered*/
     width: 17%;
   }
 
-/* Iteration-4: */
+/* Iteration-10: using a combinator selector make the text-decoration to none for the attribute <a> uder the class grid-5  */
   .grid-5 >a{
     text-decoration: none;
   }
